@@ -852,45 +852,91 @@ opacity: 1;
 }
     /* Footer*/
 
-footer{
-    width: 100%;
-    background-color: #009688;
-    display: flex;
-    flex-wrap: wrap;
-}
-.mainft{
-    width: 100%;
-    margin: auto;
-    padding: 70px 10px;
-    color: blanchedalmond;
-    display: flex;
-    flex-wrap: wrap;
-   justify-content: space-evenly;
-    
-    
-}
-.ft{
-    width: 300px;
-}
-.ft i:hover{
-opacity: 0.5;
-cursor: pointer;
-}
-.mainft .ft-mid >p{
-   border-bottom: green 1px solid;
-}
-.bottom-ft{
-   width: 100%;
-   background-color: teal;
-   color: white;
-   font-size: 16px;
-   justify-content: center;
-}
-.bottom-ft p{
-   font-size: 14px;
-   margin-top: 10px;
- padding: 0 20px;
-}
 
-
-
+    footer{
+        width: 100%;
+        background-color: #009688;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .mainft{
+        width: 100%;
+        margin: auto;
+        padding: 20px 10px;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-evenly;
+        
+        
+      }
+      .ft h4{
+      font-size: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+      }
+      .ft p {
+      text-align: justify;
+      color: white;
+      
+      }
+      .ft{
+        width: 300px;
+      }
+      .ft .follow{
+      color: white;
+      padding-bottom: 5px;
+      
+      }
+      .ft i{
+      color: white;
+      }
+      .ft i:hover{
+      cursor: pointer;
+      color: black;
+      }
+      .mainft .ft-left ul li {
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        bottom: 15px;
+      }
+      
+      .mainft .ft-left ul li a{
+        text-decoration: none;
+      }
+      .mainft .ft-mid ul li {
+      list-style: none;
+      }
+      .mainft .ft-mid  ul li a{
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      letter-spacing: 2px;
+      }
+      .mainft .ft-mid  ul li a:hover{
+      color: #000;
+      }
+      .mainft .ft-right .fa{
+       color: white;
+       padding-right: 10px;
+      
+      }
+      .mainft .ft-right .fa:hover{
+      color: black;
+      cursor: pointer;
+      }
+      .bottom-ft{
+       width: 100%;
+       background-color: teal;
+       color: white;
+       font-size: 16px;
+       justify-content: center;
+      }
+      .bottom-ft p{
+       font-size: 14px;
+       margin-top: 10px;
+      padding: 0 20px;
+      text-align: center;
+      }
